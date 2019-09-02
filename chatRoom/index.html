@@ -1,0 +1,66 @@
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatroom</title>
+    <link rel = "stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+</head>
+<body>
+    <!-- container & title -->
+    <div class="container my-4">
+        <h1 class="my-4 text-center">
+            Chat Room
+        </h1>
+    </div>
+
+    <!-- button for chat rooms -->
+    <div class="chat-rooms mb-3 text-center">
+        <div class="my-2">Choose a chatroom</div>
+        <button class="btn btn-success" id="general">General</button>
+        <button class="btn btn-success" id="gaming">Gaming</button>
+        <button class="btn btn-success" id="music">Music</button>
+        <button class="btn btn-success" id="others">Others</button>
+    </div>
+
+    <!-- chat list/ window -->
+
+
+    <!-- new chat form -->
+
+
+    <!-- update name form -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCthPhif8ML0Z77tuXS2LUAisCsGNreHSA",
+            authDomain: "chatroom-f1448.firebaseapp.com",
+            databaseURL: "https://chatroom-f1448.firebaseio.com",
+            projectId: "chatroom-f1448",
+            storageBucket: "",
+            messagingSenderId: "945567825147",
+            appId: "1:945567825147:web:d376325a475ca9e0"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore()
+    </script>
+
+    <script src = "js/chat.js"></script>
+    <script src = "js/ui.js"></script>
+    <script src = "js/app.js"></script>    
+ 
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+    {
+        " text" : "TD2.1",
+        "value" : "Developer",
+        "points" : true
+    },
+    {
+        "text": "TD2.2",
+        "value" : "Designer",
+        "points" : true
+    }
+]
